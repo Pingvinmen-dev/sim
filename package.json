@@ -4,6 +4,7 @@
   "description": "Simple observer",
   "main": "index.js",
   "scripts": {
+    "predev": "npm run clean",
     "dev": "mkdirp dist && babel index.js -o ./dist/simobs.js",
     "build": "npm run dev && uglifyjs ./dist/simobs.js -o ./dist/simobs.min.js",
     "clean": "rimraf ./dist",
@@ -24,10 +25,14 @@
   "homepage": "https://github.com/anqurvanillapy/simobs#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.0",
+    "babel-env": "^2.4.1",
     "jest": "^21.0.2",
     "mkdirp": "^0.5.1",
     "rimraf": "^2.6.1",
     "uglify-js": "^3.1.0"
-  }
+  },
+  "files": [
+    "dist",
+    "index.js"
+  ]
 }
