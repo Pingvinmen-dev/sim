@@ -10,10 +10,12 @@ $ npm i -s simobs
 
 ## Usage
 
+**Warning:** The diffing is not generic and kinda weak.
+
 ```js
 import Simobs from 'simobs'
 
-let obs = new Simobs
+let obs = new Simobs()
 
 // Subscribe.
 obs.sub(() => 42)
@@ -32,6 +34,11 @@ obs.v({1: 2})
 // No deepdiff (diffing with `===' only).
 obs.v(420, false)
 ```
+
+## Well
+
+- **Is it fast?**  Nope.  Read it and you will know why.
+- **So why?**  Workaround when there are messy scoped states.
 
 ## License
 
