@@ -1,0 +1,22 @@
+{
+  "name": "simobs",
+  "version": "0.1.0",
+  "description": "Simple observer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anqurvanillapy/simobs.git"
+  },
+  "keywords": [
+    "observer"
+  ],
+  "author": "AnqurVanillapy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anqurvanillapy/simobs/issues"
+  },
+  "homepage": "https://github.com/anqurvanillapy/simobs#readme"
+}
