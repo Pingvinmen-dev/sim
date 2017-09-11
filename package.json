@@ -2,7 +2,7 @@
   "name": "simobs",
   "version": "1.1.0",
   "description": "Simple observer",
-  "main": "index.js",
+  "main": "./dist/simobs.js",
   "scripts": {
     "predev": "npm run clean",
     "dev": "mkdirp dist && babel index.js -o ./dist/simobs.js",
